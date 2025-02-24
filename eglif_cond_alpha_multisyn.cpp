@@ -203,6 +203,8 @@ eglif_cond_alpha_multisyn::eglif_cond_alpha_multisyn(const eglif_cond_alpha_mult
   // copy parameter struct P_
   P_.C_m = __n.P_.C_m;
   P_.t_ref = __n.P_.t_ref;
+  P_.lambda_0 = __n.P_.lambda_0;
+  P_.tau_V = __n.P_.tau_V;
   P_.V_reset = __n.P_.V_reset;
   P_.tau_m = __n.P_.tau_m;
   P_.E_L = __n.P_.E_L;
